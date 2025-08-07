@@ -29,7 +29,7 @@ export default function NetworkAnalytics() {
     <div className="bg-white rounded-xl border border-gray-200 mb-8">
       <div className="p-6 border-b border-gray-200">
         <h2 className="text-xl font-semibold text-gray-900">Network Analytics</h2>
-        <p className="text-gray-600 text-sm mt-1">Real-time Hedera network performance and transaction metrics</p>
+        <p className="text-gray-600 text-sm mt-1">Real-time NEAR network performance and transaction metrics</p>
       </div>
       
       <div className="p-6">

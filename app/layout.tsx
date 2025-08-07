@@ -21,8 +21,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Negravis - Hedera Consensus Oracles",
-  description: "Advanced Hedera Consensus Oracle platform with multiple data sources and real-time analytics",
+  title: "Nearacles - NEAR Protocol Oracle Network",
+  description: "Advanced NEAR blockchain oracle platform with multiple data sources, real-time consensus algorithms, and enterprise-grade security for decentralized applications",
 };
 
 export default function RootLayout({
