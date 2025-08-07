@@ -15,17 +15,21 @@ export default function Header() {
         </Link>
         
         <nav className="flex items-center space-x-8">
-          <Link href="/dashboard" className="text-gray-600 hover:text-green-600 font-medium">
+          <Link href="/v1/dashboard" className="text-gray-600 hover:text-green-600 font-medium relative group">
             Dashboard
+            <span className="absolute -top-1 -right-1 bg-indigo-500 text-white text-xs px-1.5 py-0.5 rounded text-[10px] opacity-0 group-hover:opacity-100 transition-opacity">v1</span>
           </Link>
-          <Link href="/oracles" className="text-gray-600 hover:text-green-600 font-medium">
+          <Link href="/v1/oracles" className="text-gray-600 hover:text-green-600 font-medium relative group">
             Oracles
+            <span className="absolute -top-1 -right-1 bg-green-500 text-white text-xs px-1.5 py-0.5 rounded text-[10px] opacity-0 group-hover:opacity-100 transition-opacity">v1</span>
           </Link>
-          <Link href="/analytics" className="text-gray-600 hover:text-green-600 font-medium">
+          <Link href="/v1/analytics" className="text-gray-600 hover:text-green-600 font-medium relative group">
             Analytics
+            <span className="absolute -top-1 -right-1 bg-blue-500 text-white text-xs px-1.5 py-0.5 rounded text-[10px] opacity-0 group-hover:opacity-100 transition-opacity">v1</span>
           </Link>
-          <Link href="/explorer" className="text-gray-600 hover:text-green-600 font-medium">
+          <Link href="/v1/explorer" className="text-gray-600 hover:text-green-600 font-medium relative group">
             Explorer
+            <span className="absolute -top-1 -right-1 bg-purple-500 text-white text-xs px-1.5 py-0.5 rounded text-[10px] opacity-0 group-hover:opacity-100 transition-opacity">v1</span>
           </Link>
           <button className="bg-green-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-green-700 whitespace-nowrap cursor-pointer">
             Connect Wallet
